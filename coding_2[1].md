@@ -301,27 +301,39 @@ div{
 ```
 1. Width
 ```
-
+#id2{
+    width : 75px;
+}
 ```
 2. Height
 ```
-
+.class2{
+    height : 50px;
+}
 ```
 3. Padding-Top
 ```
-
+*{
+    padding-top : 5px;
+}
 ```
 4. Margin-Bottom
 ```
-
+*{
+    margin-bottom : 15px;
+}
 ```
 5. Font-Size
 ```
-
+#id2{
+    font-size : 20px;
+}
 ```
 6. Color
 ```
-
+.class2{
+    color : black;
+}
 ```
 ### FSD.CSS.3.8
 ```
@@ -329,27 +341,39 @@ div{
 ```
 1. Width
 ```
-
+.class6{
+    width : 100px;
+}
 ```
 2. Height
 ```
-
+.class2{
+    height : 50px;
+}
 ```
 3. Padding-Left
 ```
-
+.class6{
+    padding-left : 6px;
+}
 ```
 4. Margin-Right
 ```
-
+*{
+    margin-right : 8px;
+}
 ```
 5. Font-Size
 ```
-
+.class4{
+    font-size : 11px;
+}
 ```
 6. Color
 ```
-
+.class2{
+    color : black;
+}
 ```
 ### FSD.CSS.3.9
 ```
@@ -357,23 +381,33 @@ div{
 ```
 1. Width
 ```
-
+.class5{
+    width : 6px;
+}
 ```
 2. Height
 ```
-
+.class5{
+    height : 100px;
+}
 ```
 3. Background Color
 ```
-
+#id2{
+    background-color : red;
+}
 ```
 4. Color
 ```
-
+.class3{
+    color : red;
+}
 ```
 5. Font-Size
 ```
-
+#id2{
+    font-size : 20px;
+}
 ```
 ### FSD.CSS.3.10
 ```
@@ -381,27 +415,39 @@ div{
 ```
 1. Width
 ```
-
+div{
+    width : 150px;
+}
 ```
 2. Height
 ```
-
+.class2{
+    height : 50px;
+}
 ```
 3. Padding-Top
 ```
-
+div{
+    padding-top : 10px;
+}
 ```
 4. Margin-Left
 ```
-
+#id3{
+    margin-left : 10px;
+}
 ```
 5. Font-Size
 ```
-
+#id3{
+    font-size : 14px;
+}
 ```
 6. Color
 ```
-
+.class4{
+    color : purple;
+}
 ```
 ### FSD.CSS.3.11
 ```
@@ -409,27 +455,39 @@ div{
 ```
 1. Background Color
 ```
-
+.class5{
+    background-color : black;
+}
 ```
 2. Height
 ```
-
+.class5{
+    height : 100px;
+}
 ```
 3. Margin-Left
 ```
-
+.class3{
+    margin-left : 15px;
+}
 ```
 4. Padding-Right
 ```
-
+div{
+    padding-right : 15px;
+}
 ```
 5. Font-Size
 ```
-
+#id3{
+    font-size : 14px;
+}
 ```
 6. Color
 ```
-
+.class3{
+    color : red;
+}
 ```
 ### FSD.CSS.3.12
 ```
@@ -437,25 +495,37 @@ div{
 ```
 1. Width
 ```
-
+div{
+    width : 75px;
+}
 ```
 2. Height
 ```
-
+#id2{
+    width : 75px;
+}
 ```
 3. Background Color
 ```
-
+#id2{
+    background-color : red;
+}
 ```
 4. Margin-Right
 ```
-
+#id2{
+    margin-right : 20px;
+}
 ```
 5. Font-Size
 ```
-
+#id2{
+    font-size : 20px;
+}
 ```
 6. Color
 ```
-
+div{
+    color : green;
+}
 ```
