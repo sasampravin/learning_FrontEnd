@@ -100,11 +100,15 @@ div {
 Fill the below property values for the `div`
 1. Color
 ```
-  
+  div{
+    color : white;
+  }
 ```
 2. Height
 ```
-
+div{
+    height : 100px;
+}
 ```
 
 ### FSD.CSS.3.2
@@ -115,15 +119,21 @@ Fill the below property values for the `div`
 Fill the below property values for the `div`
 1. Width
 ```
-
+div{
+    width : 100px;
+}
 ```
 2. Height
 ```
-
+div{
+    height : 100px;
+}
 ```
 3. Padding
 ```
-
+div{
+    padding : 4px;
+}
 ```
 ### FSD.CSS.3.3
 ```
@@ -131,27 +141,39 @@ Fill the below property values for the `div`
 ```
 1. Width
 ```
-
+.class1{
+    width : 100px;
+}
 ```
 2. Height
 ```
-
+.class1{
+    height : 100px;
+}
 ```
 3. Padding-Left
 ```
-
+.class1{
+    padding-left : 4px;
+}
 ```
 4. Margin-Right
 ```
-
+.class1{
+    margin-right : 6px;
+}
 ```
 5. Font-Size
 ```
-
+.class1{
+    font-size : 16px;
+}
 ```
 6. Color
 ```
-
+.class1{
+    color : black;
+}
 ```
 ### FSD.CSS.3.4
 ```
@@ -159,27 +181,39 @@ Fill the below property values for the `div`
 ```
 1. Color
 ```
-
+*{
+    color : yellow;
+}
 ```
 2. Background Color
 ```
-
+#id2{
+    background-color : red;
+}
 ```
 3. Padding-Bottom
 ```
-
+#id2{
+    padding-buttom : 5px;
+}
 ```
 4. Margin-Top
 ```
-
+#id2{
+    margin-top : 8px;
+}
 ```
 5. Font-Size
 ```
-
+#id2{
+    font-size : 20px;
+}
 ```
 6. Height
 ```
-
+#id2{
+    height : 150px;
+}
 ```
 ### FSD.CSS.3.5
 ```
@@ -187,27 +221,39 @@ Fill the below property values for the `div`
 ```
 1. Width
 ```
-
+*{
+    width : 100px;
+}
 ```
 2. Background Color
 ```
-
+.class4{
+    background-color : red;
+}
 ```
 3. Padding-Bottom
 ```
-
+*{
+    padding : 6px;
+}
 ```
 4. Margin-Right
 ```
-
+*{
+    margin-right : 8px;
+}
 ```
 5. Font-Size
 ```
-
+.class4{
+    font-size : 11px;
+}
 ```
 6. Color
 ```
-
+.class4{
+    color : purple;
+}
 ```
 ### FSD.CSS.3.6
 ```
@@ -215,27 +261,39 @@ Fill the below property values for the `div`
 ```
 1. Width
 ```
-
+*{
+    width : 100px;
+}
 ```
 2. Color
 ```
-
+.class3{
+    color : red;
+}
 ```
 3. Padding-Right
 ```
-
+.class3{
+    padding-right : 20px;
+}
 ```
 4. Margin-Left
 ```
-
+.class3{
+    margin-left : 15px;
+}
 ```
 5. Font-Size
 ```
-
+*{
+    font-size : 12px;
+}
 ```
 6. Background Color
 ```
-
+.class5{
+    background-color : black;
+}
 ```
 ### FSD.CSS.3.7
 ```
