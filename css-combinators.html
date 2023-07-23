@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Combinators</title>
+    <style>
+        div{
+            font-style: italic;
+        }
+        #id1,#id4{
+            color: red;
+        }
+        #id1 #id6{
+            color: green;
+        }
+        div+p{
+            color: gold;
+        }
+        div#id6{
+            font-size: 20px;
+        }
+        div.class1{
+            background-color: lightgoldenrodyellow;
+        }
+        .class1{
+            font-size: 25px;
+        }
+        div~p{
+            font-size: 30px;
+        }
+        div>h3{
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <div id="id1">
+        <div id="id2">
+            <div id="id3">
+                <div id="id4" class="class1">
+                    This is the text inside the div-id4 
+                </div>
+                <p>paraagraph in div-id3</p>
+            </div>
+            <div id="id5">
+                This is the text inside the div-id5
+            </div>
+            <h3>h3 tag in div-id2</h3>
+        </div>
+        <div id="id6">
+            This is the text inside the div-id6
+            
+        </div>
+        <p>This is paragraph tag after div-id6</p>
+        <p>last paragraph</p>
+        <h3>h3 tag in div-id1</h3>
+    </div>
+</body>
+</html>
