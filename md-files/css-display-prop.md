@@ -8,6 +8,7 @@ __*Block level elements*__: which takes the whole width of  the web page.-
 __*Inline elements*__ which will adjust according to their length and these are followed in the same line of the web page row and they remain the same.-
 
 	Ex : span, big, small, sub, sup, a, img, strong, abbr, b, br, button, i, input, label, textarea, etc.
+ [link for the inline and block-level elements](https://www.w3schools.com/html/html_blocks.asp)
 
 >**CSS display properties :**
 
