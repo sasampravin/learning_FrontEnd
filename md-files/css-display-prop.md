@@ -1,22 +1,24 @@
 ## Display properties in CSS
 
->__Type of HTML elements :__ 
+> **Type of HTML elements :**
 
-__*Block level elements*__: which takes the whole width of  the web page.-
+**_Block level elements_**: which takes the whole width of the web page.-
 
-	Ex : h1- h6, div, p, ol, ul, li, dd, dl, dt, table, header, footer, hr, form, etc.
-__*Inline elements*__ which will adjust according to their length and these are followed in the same line of the web page row and they remain the same.-
+    Ex : h1- h6, div, p, ol, ul, li, dd, dl, dt, table, header, footer, hr, form, etc.
 
-	Ex : span, big, small, sub, sup, a, img, strong, abbr, b, br, button, i, input, label, textarea, etc.
- [link for the inline and block-level elements](https://www.w3schools.com/html/html_blocks.asp)
+**_Inline elements_** which will adjust according to their length and these are followed in the same line of the web page row and they remain the same.-
 
->**CSS display properties :**
+    Ex : span, big, small, sub, sup, a, img, strong, abbr, b, br, button, i, input, label, textarea, etc.
+
+[link for the inline and block-level elements](https://www.w3schools.com/html/html_blocks.asp)
+
+> **CSS display properties :**
 
 **display : inline**-
 
 Elements in the inline will take the length as they require even though we increase the width of those elements.-
 
-__display : inline-block__-
+**display : inline-block**-
 
 Here the inline elements will take the length as we mentioned and adjust accordingly to the page.-
 
@@ -29,4 +31,3 @@ It will remove the elements and the space occupied by them.-
 It will remove the elements but not the space occupied by them.-
 
 [md file commands](../md-methods.md)
-

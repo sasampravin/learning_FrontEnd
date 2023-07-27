@@ -14,7 +14,7 @@ _use single asterisk for italic font style_
 
 ~~use two tidles to strike of the text~~
 
-**bold font with **nested italic** font styles**
+**bold font with _nested italic_ font styles**
 
 **_all bold and italic font style with triple asterisks_**
 
@@ -24,7 +24,6 @@ use sub tag for <sub>subscripting</sub> something
 
 use sup tag for <sup>superscripting</sup> something
 
-<!-- use cap to do the same a^2^+b^3^ -->
 <!-- use cap to do the same a^2^+b^3^ -->
 
 use greater than symble to quoting text
@@ -75,7 +74,26 @@ document.write("some text jere");
 No languages used here to write code block
 ```
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 ## supported color models
+
+$${\color{red}Red}$$
+$${\color{green}Green}$$
+$${\color{gold}Gold}$$
+$${\color{lightblue}Light \space blue}$$
+$${\color{lightgreen}Light \space Green}$$
+$${\color{black}Black}$$
+$${\color{white}White}$$
+$${\color{purple}Purple}$$
+
+$${\color{Green}This \space \color{gold} is \space the \color{purple} \space way \space to \space \color{red} create \space \color{navy}colors}$$
 
 > HEX
 
