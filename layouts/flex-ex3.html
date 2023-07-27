@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Example 3</title>
+    <style>
+        #outer-div{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: start; */
+            /* align-items: center; */
+            justify-content: space-evenly;
+            border: 4px navy dotted;
+            height: 100vh;
+            width: 100vw;
+        }
+        .class11{
+            display: flex;
+            flex-direction: row;
+            /* justify-content: start; */
+            /* align-items: center; */
+            /* justify-content: space-evenly; */
+            border-radius: 8px;
+        }
+       
+        .class{
+            height: 100px;
+            width: 100px;
+            background-color: cadetblue;
+        }
+        #id4{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+            justify-content: space-evenly;
+        }
+        #id3{
+            display: flex;
+            flex-direction: row;
+            justify-content:start;
+            align-items:start;
+            justify-content: space-evenly;
+        }
+        #id2{
+            display: flex;
+            flex-direction: row;
+            justify-content:start;
+            align-items:start;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer-div">
+        <div id="id1" class="class11">
+            <div class="class"></div>
+        </div>
+        <div class="class11" id="id2">
+            <div class="class"></div>
+            <div class="class"></div>
+        </div>
+        <div class="class11" id="id3">
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+        </div>
+        <div class="class11" id="id4">
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+            <div class="class"></div>
+        </div>
+    </div>
+</body>
+</html>
