@@ -1,75 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Flex Example 3</title>
+    <title>Flex 3</title>
     <style>
-        #outer-div{
+        .main-container{
             display: flex;
-            flex-direction: column;
-            /* justify-content: start; */
-            /* align-items: center; */
-            justify-content: space-evenly;
-            border: 4px navy dotted;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
             height: 100vh;
             width: 100vw;
+            gap: 10px;
         }
-        .class11{
+        .sub-container{
             display: flex;
-            flex-direction: row;
-            /* justify-content: start; */
-            /* align-items: center; */
-            /* justify-content: space-evenly; */
-            border-radius: 8px;
+            flex-direction: column-reverse;
+            gap: 10px;
         }
-       
-        .class{
+        .class1{
+            background-color: blueviolet;
             height: 100px;
             width: 100px;
-            background-color: cadetblue;
-        }
-        #id4{
-            display: flex;
-            flex-direction: row;
-            justify-content:center;
-            align-items:center;
-            justify-content: space-evenly;
-        }
-        #id3{
-            display: flex;
-            flex-direction: row;
-            justify-content:start;
-            align-items:start;
-            justify-content: space-evenly;
-        }
-        #id2{
-            display: flex;
-            flex-direction: row;
-            justify-content:start;
-            align-items:start;
-            justify-content: space-evenly;
         }
     </style>
 </head>
 <body>
-    <div id="outer-div">
-        <div id="id1" class="class11">
-            <div class="class"></div>
+    <div class="main-container">
+        <div class="sub-container">
+            <div class="class1"></div>
+            <div class="class1"></div>
+            <div class="class1"></div>
+            <div class="class1"></div>
         </div>
-        <div class="class11" id="id2">
-            <div class="class"></div>
-            <div class="class"></div>
+        <div class="sub-container">
+            <div class="class1"></div>
+            <div class="class1"></div>
+            <div class="class1"></div>
         </div>
-        <div class="class11" id="id3">
-            <div class="class"></div>
-            <div class="class"></div>
-            <div class="class"></div>
+        <div class="sub-container">
+            <div class="class1"></div>
+            <div class="class1"></div>
         </div>
-        <div class="class11" id="id4">
-            <div class="class"></div>
-            <div class="class"></div>
-            <div class="class"></div>
-            <div class="class"></div>
+        <div class="sub-container">
+            <div class="class1"></div>
         </div>
     </div>
+    
 </body>
 </html>
