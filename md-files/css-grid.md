@@ -7,7 +7,7 @@
 This the mandatory property we have to write in the parant tag with this we are creating grid container.
 
 #### ${\color{yellow}grid-template-columns}$
-- Here we specify howmany columns and width of items we want.
+- Here we specify howmany columns and width of each items we want.
 - EX:grid-template-columns : 200px 130px 520px;
 - EX:grid-template-columns : 2fr 5fr 1fr 3fr;
 - each value is one column
