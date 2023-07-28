@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid layout Three</title>
+    <style>
+        #main-container{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 10px;
+        }
+        .sub-container{
+            border: red 5px solid;
+            
+        }
+        .item{
+            background-color: cadetblue;
+            height: 100px;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div class="sub-container1">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="sub-container2">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="sub-container3">
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div class="sub-container4">
+            <div class="item"></div>
+        </div>
+    </div>
+</body>
+</html>
