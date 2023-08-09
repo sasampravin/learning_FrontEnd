@@ -1,0 +1,45 @@
+
+#main-container{
+    display: grid;
+    gap: 80px;
+    height: 100%;
+    width: 100%;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    gap: 10px;   
+}
+.sub-container1{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: center;
+    gap: 10px;
+    /* border: seagreen 3px dotted; */
+}
+.heading-searchbar{
+    display: grid;
+    justify-items: center;
+    /* border: 4px springgreen solid; */
+}
+#heading{
+    color: royalblue;
+    font-size: 100px;
+}
+.sub-container2{
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    grid-template-columns: repeat(6,100px);
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 500px;
+    border-radius: 25px;
+    border:rgb(120, 208, 238) solid 2px;   
+}
+.sub-container2 > button{
+    border-radius: 20px;
+    border-color: fuchsia;
+}
