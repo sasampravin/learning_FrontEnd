@@ -1,0 +1,13 @@
+body{
+    background: lightgoldenrodyellow;
+    height: 100vh;
+    width: 100vw;
+    color: seagreen;
+ }
+.main-container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+ }
+
+ 
