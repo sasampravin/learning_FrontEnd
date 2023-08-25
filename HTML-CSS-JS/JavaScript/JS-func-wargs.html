@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JSFunctionWithArgs
+        </title>
+    </head>
+    <body>
+        <h2>JSFunctionWithArgs</h2>
+        <p>To get function details click the below button</p>
+        <script>
+            document.write('JS functions with args')
+            function args(num){
+                document.write('square of no ',num,' is : ',num*num,'<br>')
+                document.write('cube of no ',num,' is : ',num*num*num)
+            }
+        </script>
+        <input type="button" onclick="args(4)" value="click">
+        <script>
+            function msg(n){
+                alert(document.write('square of val ',n,' is : ',n*n))
+            }
+        </script><br>
+        <p>To get details of function click the below button</p>
+        <input type="button" value="click" onclick="msg(19)">
+    </body>
+</html>

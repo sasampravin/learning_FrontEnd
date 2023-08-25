@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JSFunctionWithReturn
+        </title>
+    </head>
+    <body>
+        <h2>JSFunctionWithReturn</h2>
+        <script>
+            function get(){
+                function give(){
+                    document.write('this info is from func inside the another func with return value<br>')
+                }
+                return give()
+            }
+            get()
+        </script>
+        <script>
+            function getinfo(){
+                function table(n){
+                for(i=1;i<=10;i++){
+                    document.write(n,'x',i,'=',n*i,'<br>')
+                    }
+                }
+                return table(17)
+            }
+        </script>
+        <script>
+            document.write('multiplication table<br>')
+            getinfo();
+        </script>
+    </body>
+</html>

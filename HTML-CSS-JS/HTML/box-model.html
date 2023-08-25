@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BoxModelCSS
+        </title>
+        <style>
+            p{
+                padding-top: 50px;
+                padding-left: 100px;
+                padding-bottom: 40px;
+                padding-right: 90px;
+                margin: 0;
+                background: lightseagreen;
+                /* here div tag background is overriden by margin+background */
+                border-color: green;
+                border-width: 10px;
+                border-style: double;
+                font-size: large;
+            }
+            div{
+                background-color: chocolate;
+                border-color: red;
+                border-style: solid;
+                border-width: 10px;
+            }
+            ol{
+                background-color: coral;
+
+            }
+            li{
+                background: lightcoral;
+                padding: 40px;
+                /* t + b + l + r --->40px */
+                margin: 20px;
+                padding: 40px;
+                background: lightseagreen;
+                border: rgb(9, 255, 0) 10px solid;
+                border-top: gold dashed 10px;
+            }
+            ul{
+                background: lightgreen;
+            }
+            #li{
+                padding: 80px 50px;
+                /* top+bottom --->80px ; left+right --->50px */
+                border: orangered 8px double;
+                background: orchid;
+            }
+            #ol{
+                background: lightgray;
+                padding: 50px 70px 90px 100px;
+            }
+            .l{
+                padding: 30px 40px 50px 60px;
+                border-bottom-color: brown;
+                border-block-end-style: dotted;
+                border-bottom-width:thick;
+            }
+        </style>
+    </head>
+    <body style="background-color: aquamarine; border-color: purple; border-width: 10px; border-style: dashed; margin: 0px;">
+        <div>
+            <p>CSS BoxModel, here we are giving padding style used for text, margin style used between padding and border, border style ysed between web page body tag and margin;<br> <mark>give margin as zero in body tag to removing gap between webpage&bodytag</mark></p>
+        </div>
+        <ol>
+            <li>somthing I'm writting here just for checking the styles applying in the box model</li>
+        </ol>
+        <ul>
+            <li id="li">here we are testing the style of the css padding exemples</li>
+        </ul>
+        <ol id="ol">
+            <li class="l">this is also one type of sesting in the padding styles; border styles for a specific part like bottom-left-right-top</li>
+        </ol>
+        <h2 style="border-radius: 25%; background-color: sandybrown; text-align: center; border-top: dashed salmon 8px; border-bottom: double 8px seagreen; ">border radious styles</h2>
+    </body>
+</html>

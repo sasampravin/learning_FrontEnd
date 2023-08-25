@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalVariables 2
+    </title>
+</head>
+<body>
+    <h2>JS GlobalVariables part 2</h2>
+    <p>Accessing GlobalVariables in any function </p>
+    <p>It is declared out side function or declarred with window ibject, It can be accessed from any function</p>
+    <script>
+        window.value = 100;
+        function m(){
+            window.value = 111;
+        }
+        function n(){
+            alert(window.value );
+        }
+        n()
+    </script>
+</body>
+</html>

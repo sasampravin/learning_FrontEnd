@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Selector-Specificity
+        </title>
+        <style>
+            *{
+                color: brown;
+                background-color: azure;
+                font-style: initial;
+            }
+            h1{
+                color: chocolate;
+                background-color: bisque;
+                font-style: italic;
+            }
+            .selspe{
+                color: forestgreen;
+                background-color: lightgreen;
+                font-weight: bold;
+            }
+            #ssp{
+                color: teal;
+                background-color: lightgray;
+                font-style: italic;
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body style="font-weight: bold; font-style: italic; font-size: 30px;">
+        <h1>(h1-tag)-Selector-Specificity</h1>
+        <h1 id="ssp" class="selspe">(ID)-Selector-Specificity-preority</h1>
+        <h1 class="selspe">(class)Selector-Specificity-Preority-Verification</h1>
+        <p>In this program we are going to learn which type is giving more specificity</p>
+        <p>id > class > elements(or)tag >universal selectors</p>
+    </body>
+</html>

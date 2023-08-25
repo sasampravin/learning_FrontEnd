@@ -1,0 +1,10 @@
+.uoter{
+    height: 500px;
+    width: 700px;
+    background-color: palegreen;
+}
+.inner{
+    height: 80%;
+    width: 50%;
+    background-color: violet;
+}

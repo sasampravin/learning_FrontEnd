@@ -1,0 +1,16 @@
+body{
+    background-color: burlywood;
+    color: indigo;
+    font-size: 30px;
+}
+div{
+    background-color: lightcyan;
+    color: violet;
+    font-size: 36px;
+}
+h2{
+    background-color: lightpink;
+    color: brown;
+    font-style: italic;
+    font-weight: bold;
+}

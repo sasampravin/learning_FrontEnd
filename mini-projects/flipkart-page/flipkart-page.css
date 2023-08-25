@@ -1,0 +1,61 @@
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    gap: 10px;
+}
+.products{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    border: 3px gold solid;
+    text-align: center;
+}
+.products a img{
+    display: flex;
+    height: 100px;
+    width: 150px;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+.flipkart-logo{
+    display: grid;
+}
+.carousel-inner img{
+    height: 350px;
+    width: 100%;
+}
+.dropdown{
+    z-index: 1;
+}
+input{
+    border-radius: 25px;
+    width: 350px;
+    padding: 5px;
+    border: 10px ;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#fff;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+  
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.dropdown-options a {
+    display: block;
+    text-decoration: none;
+    padding:10px 20px;
+}

@@ -1,0 +1,16 @@
+h1{
+    background-color: bisque;
+    color: brown;
+    font-style: italic;
+}
+p{
+    color: rgb(21, 237, 104);
+    background-color: rgba(244, 147, 236, 0.671);
+    font-size: 45px;
+}
+h3{
+    color: yellow;
+    background-color: violet;
+    font-size: 50px;
+    font-style: oblique;
+}

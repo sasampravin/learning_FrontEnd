@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSObjects</title>
+</head>
+<body>
+    <h1>Objects and it's Methods</h1>
+    <h2>JS Object by it's literal:</h2>
+    <p>Creating Objects by it's obj literals</p>
+    <script>
+        emp={id:111,name:'pravinsasam',salary:4.5,comp:'globals'}
+        document.write('empluyee id '+emp.id+' and his name is '+emp.name+' with salary '+emp.salary+' per anum and doing job at '+emp.comp);
+    </script>    
+    <h1>by instance of object</h1>
+    <p><b>Note:</b><mark>new</mark> is a keyword used to create object</p>
+    <script>
+        var emp=new Object();
+        emp.id=222;
+        emp.name='rajesh';
+        emp.salary=6.5;
+        emp.comp='TCS';
+        document.write('empluyee id '+emp.id+' and his name is '+emp.name+' with salary '+emp.salary+' per anum and doing job at '+emp.comp);     
+    </script>
+    <h2>by using object contructors</h2>
+    <p><b>Note:</b><mark>this</mark> keyword refers to the current object</p>
+    <script>
+        function emp(id,name,sal,desg,comp){
+            this.id=id;
+            this.name=name;
+            this.sal=sal;
+            this.desg=desg;
+            this.comp=comp;
+        }
+        e=new emp(333,'sasampk',3.6,'team player','genisus')
+        document.write('emp id : ',e.id,'emp name : ',e.name,'emp sal : ',e.sal,'emp desg : ',e.desg,'emp comp : ',e.comp)
+    </script>
+    <h2>defining method in js object</h2>
+    <p>But before defining method we need to add property in the fumction with same name sa method</p>
+    <script>
+        function empdata(id,name,sal){
+            this.id=id;
+            this.name=name;
+            this.sal=sal;
+            this.changesal=changesal;
+            function changesal(othersal){
+                this.othersal=othersal;
+            }
+        }
+        e=new empdata(444,'pksasam',3000)
+        document.write('emp id : ',e.id,' name of emp :' ,e.name,' salary per anum : ',e.sal)
+        e.changesal(5500);
+        document.write('<br>emp id : ',e.id,' name of emp : ',e.name,' salary per anum : ',e.othersal)
+        
+    </script>
+</body>
+</html>

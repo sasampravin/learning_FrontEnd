@@ -1,0 +1,19 @@
+.h1tag{
+    color: rgb(5, 253, 170);
+    background-color: aliceblue;
+}
+.h2tag{
+    color: violet;
+    background-color: lightskyblue;
+    font-style: italic;
+}
+.ptag{
+    color: gold;
+    background-color: aqua;
+    font-size: 2rem;
+}
+.ptag2{
+    color: salmon;
+    background-color: palegoldenrod;
+    font-size: large;
+}

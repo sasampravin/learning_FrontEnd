@@ -1,0 +1,30 @@
+div{
+    font-size: 16px;
+}
+.relative{
+    font-size: 2em;
+    /* 2 * 16px = 32px */
+}
+.absolute{
+    font-size: 32px;
+}
+ol{
+    font-size: 10px;
+}
+.rel{
+    font-size: 2em;
+    /* 2 * 10px = 20px */
+}
+.abs{
+    font-size: 32px;
+}
+ul{
+    font-size: 40px;
+}
+.re{
+    font-size: 2em;
+    /* 2 * 40px = 80px */
+}
+.ab{
+    font-size: 32px;
+}

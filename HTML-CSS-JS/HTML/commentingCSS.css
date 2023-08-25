@@ -1,0 +1,11 @@
+/* short-cut for commenting in CSS file is ctrl+/ */
+h2{ 
+    color: brown;
+    background-color: rgb(205, 230, 252);
+    font-style: italic;
+}
+p{
+    color: aqua;
+    background-color: bisque;
+}
+/* commenting in the CSS file */
