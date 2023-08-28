@@ -28,7 +28,8 @@ body{
     display: grid;
 }
 #logo{
-    height: 100px;
+    height: 50px;
+    width: 80px;
 }
 .carousel-inner img{
     height: 350px;
@@ -40,7 +41,21 @@ body{
 #best-electronics, #best-sports, #best-vehicles, #best-decoration-items{
     display: flex;
     gap: 25px;
+    text-align: center;
     border: sandybrown solid 3px;
+}
+h1{
+    color: sandybrown;
+}
+.edevices button{
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: rgb(14, 14, 244);
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    border: 2px red solid;
+    font-size: 25px;
 }
 div img{
     height: 250px;
@@ -48,12 +63,15 @@ div img{
 }
 #search{
     border-radius: 25px;
-    margin: 4px;
+    margin: 8px;
+    padding-right: 20px;
     background-color: #fff;
+
 }
 #search > input{
     outline: none;
     border: none;
+    margin-left: 15px;
 }
 
 
