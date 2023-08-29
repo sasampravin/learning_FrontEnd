@@ -1,20 +1,27 @@
-body{
+/* body{
     display: grid;
     height: 100vh;
     width: 100vw;
     gap: 10px;
+} */
+#main-container{
+    display: grid;
+    /* border: red 5px solid; */
+    gap: 10px;
+    margin: 5px;
+    padding: 5px;
+    height: 100vh;
+    width: 100vw;
 }
 .products{
     display: flex;
-    gap: 20px;
     justify-content: space-around;
-    border: 3px gold solid;
     text-align: center;
 }
 .products a img{
     display: flex;
     height: 100px;
-    width: 150px;
+    width: 100px;
 }
 #navbar{
     display: flex;
@@ -40,26 +47,30 @@ body{
 }
 #best-electronics, #best-sports, #best-vehicles, #best-decoration-items{
     display: flex;
-    gap: 25px;
+    gap: 15px;
+    width: 100%;
     text-align: center;
-    border: sandybrown solid 3px;
+    justify-content: space-evenly;
 }
-h1{
+h3{
     color: sandybrown;
 }
-.edevices button{
+.view-all{
+    width: 150px;
+}
+.view-all button{
     border-radius: 20px;
     background-color: greenyellow;
     color: rgb(14, 14, 244);
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 120px;
     border: 2px red solid;
     font-size: 25px;
 }
 div img{
     height: 250px;
-    width: 300px;
+    width: 200px;
 }
 #search{
     border-radius: 25px;
