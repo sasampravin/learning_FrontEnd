@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout_1_small</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        #main-container{
+            display: grid;
+            height: 500px;
+            width: 500px;
+            gap: 20px;
+        }
+        #main-container div{
+            padding: 10px;
+            font-size: 25px;
+        }
+        .navigation{
+            grid-row: 1/2;
+            background-color: yellow;
+        }
+        .left-box{
+            grid-row: 5/8;
+            background-color: red;
+        }
+        .right-box{
+            grid-row: 2/5;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div class="navigation">Navigation</div>
+        <div class="left-box">Left box</div>
+        <div class="right-box">Right box</div>
+    </div>
+</body>
+</html>

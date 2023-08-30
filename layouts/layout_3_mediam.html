@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout_3_mediam</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            font-size: 25px;
+        }
+        #main-container{
+            display: grid;
+            height: 500px;
+            width: 750px;
+            gap: 10px;
+            column-gap: 25px;
+        }
+        #main-container div{
+            padding: 10px;
+        }
+        .navigation{
+            grid-column: 1/4;
+            grid-row: 1/2;
+            background-color: yellow;
+        }
+        .left-box{
+            grid-column: 1/4;
+            grid-row: 2/6;
+            background-color: red;
+        }
+        .right-box1, .right-box2, .right-box3{
+            grid-row: 6/8;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <div class="navigation">Navigation</div>
+        <div class="left-box">Left box</div>
+        <div class="right-box1">Right box-1</div>
+        <div class="right-box2">Right box-2</div>
+        <div class="right-box3">Right box-3</div>
+    </div>
+</body>
+</html>
