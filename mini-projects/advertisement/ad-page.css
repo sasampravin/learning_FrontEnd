@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    background-color: slategrey;
+}
+#advertisement{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+    width: 900px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+#sub-container1{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 15px;
+}
+#sub-container2{
+    display: flex;
+    width: 650px;
+}
+#sub-container2 img{
+    height: 100px;
+    width: 100px;
+}
+#sub-container3{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    padding: 15px;
+    gap: 85px;
+}
+.text-2 h3{
+    text-align: right;
+}
