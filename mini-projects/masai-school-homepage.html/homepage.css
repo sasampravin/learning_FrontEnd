@@ -1,3 +1,7 @@
+#main-container{
+    margin: 10px;
+    /* width: 100%; */
+}
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -45,7 +49,9 @@ button{
     grid-column: 3/7;
     background-color: gainsboro;
 }
-#card4, #card41, #card42{
+#card4,
+#card41,
+#card42{
     display: grid;
     gap: 10px;
 }
@@ -56,7 +62,9 @@ button{
 #card4 h1{
     grid-column: 1/5;
 }
-#card4 h1, #card41 h2, #card42 h2, h1{
+#card4 h1,
+#card41 h2,
+#card42 h2, h1{
     color:chocolate;
     text-align: center;
 }
