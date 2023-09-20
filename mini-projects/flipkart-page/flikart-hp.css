@@ -1,0 +1,53 @@
+.flex-used{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.main-container{
+    flex-direction: column;
+}
+.navbar{
+    background-color: lightgoldenrodyellow;
+    height: 150px;
+    border-radius: 20px;
+}
+.logo{
+    flex-direction: column;
+}
+.logo a > img{
+    height: 70px;
+}
+a > img{
+    height: 100px;
+    width: 120px;
+    border-radius: 8%;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.products-menu{
+    background-color: gainsboro;
+    flex-direction: row;
+    border-radius: 20px;
+    text-align: center;
+}
+marquee a img{
+    height: 450px;
+    width: 500px;
+}
+.products-galary{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.products div{
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+}
