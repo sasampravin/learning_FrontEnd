@@ -1,0 +1,74 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    padding: 3px;
+}
+h2{
+    color: darkcyan;
+    background-color: honeydew;
+    font-family: cursive;
+}
+.flex-used{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.self-details{
+    gap: 10px;
+}
+.profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+}
+.about{
+    flex-direction: row;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 15px;
+}
+img{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+.education .education-details, .education .college-pics{
+    overflow-y: scroll;
+    height: 400px;
+}
+.education-details p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightcyan;
+    color: goldenrod;
+    border-radius: 20px;
+    height: 300px;
+    padding: 15px;
+}
+.skills img{
+    height: 80px;
+    width: 100px;
+    border: 2px rgba(255, 217, 0, 0.655) solid;
+}
+fieldset{
+    height: 420px;
+    width: 120px;
+}
+legend{
+    font-size: 20px;
+    color: forestgreen;
+}

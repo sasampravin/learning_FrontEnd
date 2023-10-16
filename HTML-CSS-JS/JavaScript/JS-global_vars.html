@@ -20,13 +20,16 @@
         add()//calling functions
         sub()
     </script>
+    <h2>JS GlobalVariables part 2</h2>
+    <p>Accessing GlobalVariables in any function </p>
+    <p>It is declared out side function or declarred with window ibject, It can be accessed from any function</p>
     <script>
-        window.value=90;
+        window.value = 100;
         function m(){
-            window.value=100;
+            window.value = 111;
         }
         function n(){
-            alert(window.value)
+            alert(window.value );
         }
         n()
     </script>

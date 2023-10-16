@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+.container {
+  height: 100px;
+  border: 1px solid gray;
+  width: 900px;
+  margin-bottom: 1em;
+  overflow: auto;
+}
+span {
+  display: inline-block;
+  width: 1200px;
+  height: 50px;
+  background-color: red;
+}
+</style>
+</head>
+<body>
+<div class="container scrollable"><span>
+  <img src="./college-pics/B.Ed-SKU.jpeg" alt="B.Ed-SKU">
+  <img src="./college-pics/GDC-atp.png" alt="GDC-atp">
+  <img src="./college-pics/inter.jpeg" alt="Intermediate-college-pic">
+  <img src="./college-pics/ssc.jpeg" alt="SSC-arikera-pic">
+</span></div>
+<div class="container scrollable"><span></span></div>
+<script type="text/javascript">
+    // Pseudo code
+// 1. Query the scroll bars you want to sync
+// 2. Add event listener to each of them
+// 3. In the event listener, set the scroll position of the other scroll bar(s) to the same value
+
+// Step 1
+const scrollBarContainers = [
+  ...document.querySelectorAll('.scrollable')
+   // Include document for window scrolling
+];
+
+// Step 2
+scrollBarContainers.forEach(container => {
+  container.addEventListener('scroll', syncScrolls);
+});
+
+// Step 3
+function syncScrolls(e) {
+  scrollBarContainers.forEach(container => {
+    if (container !== e.target) {
+      // The document element doesn't directly have a scrollLeft property.
+      // It's on the scrollingElement. The other elements have it directly.
+      if (container.scrollingElement) {
+        container.scrollingElement.scrollLeft = e.target.scrollLeft;
+      } else if (e.target.scrollingElement) {
+        container.scrollLeft = e.target.scrollingElement.scrollLeft;
+      } else {
+        container.scrollLeft = e.target.scrollLeft;
+      }
+    }
+  });
+}
+
+</script>
+
+</body>
+</html>
